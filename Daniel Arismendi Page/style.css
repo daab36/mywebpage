@@ -1,0 +1,133 @@
+/*
+CSS of the web pages
+*/
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/*
+esta parte lo que hace es que la pagina se ajuste al tamano de la pagina en general, no mover o
+quitar esto puede desajustar la pagina y todo se puede ir a la mierda
+*/
+html {
+  height: 100%;
+  background-color: #141826;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  background-color: #bbbfbe;
+}
+
+#header {
+  height: 5%;
+  background-color: #141826;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  color: aliceblue;
+  border-top: 0%;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+
+h3{
+  color: #cd919f;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+  text-align: right;
+  
+}
+#daniel {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: large;
+}
+
+a{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+  color: #10121d;
+  text-decoration: none;
+}
+
+#wrap {
+  height: 100%;
+  position: static;
+}
+
+.window-banner {
+  position: absolute;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  background-color: #958985;
+}
+
+.window {
+  width: 50%;
+  position: relative;
+  float: right;
+  height: 100%;
+  background-color: #141826;
+}
+
+.pane {
+  width: 100%;
+  position: static;
+  height: 25%;
+  text-align: center;
+  background-color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 1%;
+}
+
+#pane1 {
+  border-bottom: 0px dashed;
+  text-align: center;
+  background-color: #9c938e;
+}
+
+#pane2 {
+  border-bottom: 0px dashed;
+  background-color: #afa6a1;
+}
+
+#pane3 {
+  border-bottom: 0px dashed;
+  background-color: #b3aaa5;
+}
+
+#pane4 {
+  border-bottom: 0px dashed;
+  background-color: #b3aaa5;
+}
+
+#window2 {
+  border-right: 0px solid;
+  background-color: #b3aaa5;
+}
