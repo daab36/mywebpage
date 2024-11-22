@@ -1,0 +1,295 @@
+/*
+CSS of the web pages
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+esta parte lo que hace es que la pagina se ajuste al tamano de la pagina en general, no mover o
+quitar esto puede desajustar la pagina y todo se puede ir a la mierda
+*/
+
+html {
+  height: 100%;
+  background-color: #141826;
+  overflow: hidden;
+}
+
+/*
+Esta parte es el fondo de la la imagen de Idex.html es importante dejar esto quieto
+*/ 
+
+body {
+  height: 100%;
+  background-color: #bbbfbe;
+}
+
+/*
+header es la cabezera de todas las pesta;;as, de esta manera se busca crear un estilo unico que 
+pueda dar un estilo
+*/
+
+#header {
+  height: 5%;
+  background-color: #141826;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  color: aliceblue;
+}
+
+/*
+Esta es el ajuste que fue necesario realizar para ajustar las listas, las margenes y que se vea bonito 
+y espaciado.
+*/
+
+li {
+  padding: 8px;
+  margin-left: 30px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+  padding-top: 0;
+  height: 600px;
+}
+
+/*
+Estos son los titulos de las partes superiores, me gusta el estilo y el color, me parece que da un
+estilo tranca.
+*/
+
+h3{
+  color: #cd919f;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+  text-align: right;
+  
+/*
+Estos son los titulos de las partes superiores, me gusta el estilo y el color, me parece que da un
+estilo tranca.
+*/
+
+}
+#daniel {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: large;
+  padding: 1%;
+  margin: 1%;
+}
+
+a{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+  color: #10121d;
+  text-decoration: none;
+}
+
+#wrap {
+  height: 100%;
+  position: static;
+}
+
+#list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: large;
+}
+
+.window-banner {
+  position: absolute;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  background-color: #958985;
+}
+
+.window {
+  width: 50%;
+  position: relative;
+  float: right;
+  height: 100%;
+  background-color: #141826;
+}
+
+.pane {
+  width: 100%;
+  position: static;
+  height: 25%;
+  text-align: center;
+  background-color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 1%;
+}
+
+#pane1 {
+  border-bottom: 0px dashed;
+  text-align: center;
+  background-color: #9c938e;
+}
+
+#pane2 {
+  border-bottom: 0px dashed;
+  background-color: #afa6a1;
+}
+
+#pane3 {
+  border-bottom: 0px dashed;
+  background-color: #b3aaa5;
+}
+
+#pane4 {
+  border-bottom: 0px dashed;
+  background-color: #b3aaa5;
+}
+
+#window2 {
+  border-right: 0px solid;
+  background-color: #b3aaa5;
+}
+
+div.box{
+  height: 250px;
+  width: 296px;
+  margin: 11px;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+  color: #10121d;
+  text-decoration: none;
+  text-align: center;
+}
+
+div.text{
+  background-color: #394f59;
+  height: 250px;
+  width: 296px;
+  margin: 11px;
+  float: left;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #fbae4e;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+div.music{
+  background: rgb(20,24,38);
+  background: linear-gradient(90deg, rgba(20,24,38,1) 0%, 
+rgba(20,24,38,1) 50%, rgba(2,0,36,0) 100%);
+  width: 50%;
+  height: 100%;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+  color: #10121d;
+  text-decoration: none;
+  text-align: center;
+}
+
+div.portada{
+  width: 121px;
+  height: 121px;
+  float: left;
+  margin: 15px;
+  background-color: #cd8f9f;
+}
+
+div.movies{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, 
+rgba(20,24,38,1) 50%, rgba(20,24,38,1) 100%);
+  width: 50%;
+  height: 100%;
+  margin: 0px;
+  float: right;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+  color: #10121d;
+  text-decoration: none;
+  text-align: center;
+}
+
+div.pelicula{
+  width: 175px;
+  height: 250px;
+  float: right;
+  margin: 10px;
+  background-color: #cd8f9f;
+}
